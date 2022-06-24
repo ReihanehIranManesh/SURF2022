@@ -54,14 +54,20 @@ langs = {"af": "Afrikaans", "sq": "Albanian",
 # Instantiates a client
 client = vision.ImageAnnotatorClient()
 
-# The name of the image file to annotate
-file_name = os.path.abspath('1967-77-cc.jpg')
+# The name of the local image file to annotate
+# file_name = os.path.abspath('1967-77-cc.jpg')
 
 # Loads the image into memory
-with io.open(file_name, 'rb') as image_file:
-    content = image_file.read()
+# with io.open(file_name, 'rb') as image_file:
+#     content = image_file.read()
 
-image = vision.Image(content=content)
+# image = vision.Image(content=content)
+
+
+# The uri of image file (somwewher on internet)
+image = vision.Image()
+image.source.image_uri = "https://museums.fivecolleges.edu/grabimg.php?wm=1&kv=3063427"
+
 
 # OCR
 all_words = []
