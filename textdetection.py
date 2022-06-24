@@ -1,8 +1,5 @@
-from ast import Pass
 import io
 import os
-import webcolors
-from pickle import TRUE
 # Imports the Google Cloud client library
 from google.cloud import vision
 from google.cloud import translate_v2 as translate
@@ -47,6 +44,7 @@ langs = {"af": "Afrikaans", "sq": "Albanian",
          "az-Cyrl": "Azerbaijani", "eu": "Basque",
          "bs": "Azerbaijani", "my": "Burmese",
          "ceb": "Cebuano", "chr": "Cherokee",
+         "dv" : "Dhivehi", "dz": "Dzonkha",
          "sw": "Swahili", "syr": "Syriac",
          "haw": "Hawaiian", "so": "Somali",
          "zu": "Zulu", "mi": "Maori"
