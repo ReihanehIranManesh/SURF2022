@@ -1,4 +1,3 @@
-# export GOOGLE_APPLICATION_CREDENTIALS="/home/reihaneh/Downloads/testdomcolor-c23a1a23deb8.json"
 from ast import Pass
 import io
 import os
@@ -6,7 +5,9 @@ import webcolors
 from pickle import TRUE
 # Imports the Google Cloud client library
 from google.cloud import vision
-# from google.cloud import translate_v2 as translate
+from google.cloud import translate
+
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/reihaneh/Downloads/testdomcolor-5cbfa6dc7bc4.json"
 
 langs = {"af": "Afrikaans", "sq": "Albanian",
          "ar": "Arabic", "hy": "Armenian",
