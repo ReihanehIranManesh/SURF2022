@@ -5,6 +5,7 @@ from google.cloud import vision
 from google.cloud import translate_v2 as translate
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/reihaneh/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/adamrogers/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
 
 langs = {"af": "Afrikaans", "sq": "Albanian",
          "ar": "Arabic", "hy": "Armenian",
