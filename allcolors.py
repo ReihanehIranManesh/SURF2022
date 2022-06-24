@@ -17,6 +17,7 @@ def closest_color(requested_colour):
         min_colours[(rd + gd + bd)] = name
     print(min_colours[min(min_colours.keys())])
 
+print("hello")
 
 # Color Contants 551 colors
 ALICEBLUE = RGB(240, 248, 255)
