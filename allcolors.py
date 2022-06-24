@@ -17,8 +17,6 @@ def closest_color(requested_colour):
         min_colours[(rd + gd + bd)] = name
     print(min_colours[min(min_colours.keys())])
 
-print("hello")
-
 # Color Contants 551 colors
 ALICEBLUE = RGB(240, 248, 255)
 ANTIQUEWHITE = RGB(250, 235, 215)
@@ -640,19 +638,19 @@ colors[CORAL2] = 'orange'
 colors[CORAL3] = 'orange'
 colors[CORAL4] = 'orange'
 colors[CORNFLOWERBLUE] = 'blue'
-colors[CORNSILK1] = 'white'
-colors[CORNSILK2] = 'white'
+colors[CORNSILK1] = 'brown'
+colors[CORNSILK2] = 'brown'
 colors[CORNSILK3] = 'brown'
 colors[CORNSILK4] = 'brown'
 colors[CRIMSON] = 'red'
 colors[CYAN2] = 'cyan'
 colors[CYAN3] = 'cyan'
 colors[CYAN4] = 'cyan'
-colors[DARKGOLDENROD] = 'gold'
-colors[DARKGOLDENROD1] = 'gold'
-colors[DARKGOLDENROD2] = 'gold'
-colors[DARKGOLDENROD3] = 'gold'
-colors[DARKGOLDENROD4] = 'gold'
+colors[DARKGOLDENROD] = 'yellow'
+colors[DARKGOLDENROD1] = 'yellow'
+colors[DARKGOLDENROD2] = 'yellow'
+colors[DARKGOLDENROD3] = 'yellow'
+colors[DARKGOLDENROD4] = 'yellow'
 colors[DARKGRAY] = 'gray'
 colors[DARKGREEN] = 'green'
 colors[DARKKHAKI] = 'yellow'
