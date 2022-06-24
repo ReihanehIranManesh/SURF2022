@@ -5,7 +5,7 @@ import webcolors
 from pickle import TRUE
 # Imports the Google Cloud client library
 from google.cloud import vision
-from google.cloud import translate
+from google.cloud import translate_v2 as translate
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/reihaneh/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
 
@@ -107,17 +107,17 @@ for page in response.full_text_annotation.pages:
                 for symbol in word.symbols:
                     print('\tSymbol: {} (confidence: {})'.format(
                         symbol.text, symbol.confidence))
-#
-# translate_client = translate.Client()
-#
-# # Text can also be a sequence of strings, in which case this method
-# # will return a sequence of results for each text.
-# for item in all_words_new:
-#     result = translate_client.detect_language(item)
-#     print("Text: {}".format(item))
-#     print("Confidence: {}".format(result["confidence"]))
-#     print("Code: {}".format(result["language"]))
-#     if (langs.get(result["language"])):
-#         print("Language: {}".format(langs[result["language"]]))
-#     else:
-#         print("UNKNOWN")
+
+translate_client = translate.Client()
+
+# Text can also be a sequence of strings, in which case this method
+# will return a sequence of results for each text.
+for item in all_words_new:
+    result = translate_client.detect_language(item)
+    print("Text: {}".format(item))
+    print("Confidence: {}".format(result["confidence"]))
+    print("Code: {}".format(result["language"]))
+    if (langs.get(result["language"])):
+        print("Language: {}".format(langs[result["language"]]))
+    else:
+        print("UNKNOWN")
