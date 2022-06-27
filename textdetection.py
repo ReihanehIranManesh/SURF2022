@@ -64,7 +64,7 @@ client = vision.ImageAnnotatorClient()
 # image = vision.Image(content=content)
 
 
-# The uri of image file (somwewher on internet)
+# The uri of image file (somewhere on internet)
 image = vision.Image()
 image.source.image_uri = "https://museums.fivecolleges.edu/grabimg.php?wm=1&kv=3063427"
 
@@ -126,3 +126,20 @@ for item in all_words_new:
         print("Language: {}".format(langs[result["language"]]))
     else:
         print("UNKNOWN")
+
+
+
+client = vision.ImageAnnotatorClient()
+
+image = vision.Image()
+image.source.image_uri = "https://thumbs.dreamstime.com/b/watermelons-stacked-multiple-grocery-store-orderly-design-has-melons-all-their-stripes-going-horizontally-vivid-102501460.jpg"
+
+objects = client.object_localization(
+    image=image).localized_object_annotations
+
+print('Number of objects found: {}'.format(len(objects)))
+for object_ in objects:
+    print('\n{} (confidence: {})'.format(object_.name, object_.score))
+    print('Normalized bounding polygon vertices: ')
+    for vertex in object_.bounding_poly.normalized_vertices:
+        print(' - ({}, {})'.format(vertex.x, vertex.y))
