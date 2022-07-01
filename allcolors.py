@@ -1,23 +1,16 @@
 from collections import OrderedDict
 import webcolors
+import os
+# Imports the Google Cloud client library
+from google.cloud import vision
 
 colors = {}  # dict of colors
 
 def RGB(red, green, blue):
     return '#{:02X}{:02X}{:02X}'.format(red, green, blue)
 
-def closest_color(requested_colour):
-    r, g, b = requested_colour
-    min_colours = {}
-    for key, name in colors.items():
-        r_c, g_c, b_c = webcolors.hex_to_rgb(key)
-        rd = (r_c - r) ** 2
-        gd = (g_c - g) ** 2
-        bd = (b_c - b) ** 2
-        min_colours[(rd + gd + bd)] = name
-    print(min_colours[min(min_colours.keys())])
 
-# Color Contants 551 colors
+# Color Contents 551 colors
 ALICEBLUE = RGB(240, 248, 255)
 ANTIQUEWHITE = RGB(250, 235, 215)
 ANTIQUEWHITE1 = RGB(255, 239, 219)
@@ -1125,6 +1118,40 @@ colors[YELLOW4] = 'yellow'
 
 colors = OrderedDict(sorted(colors.items(), key=lambda t: t[0]))
 
-requested_colour = (217, 190, 138)
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/adamrogers/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/reihaneh/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
 
-closest_color(requested_colour)
+# Instantiates a client
+client = vision.ImageAnnotatorClient()
+
+# The uri of image file (somewhere on internet)
+image = vision.Image()
+image.source.image_uri = "https://museums.fivecolleges.edu/grabimg.php?wm=1&kv=3063427"
+
+response = client.image_properties(image=image)
+props = response.image_properties_annotation
+
+
+def closest_color(r, g, b):
+    min_colours = {}
+    hex_names = {}
+    for key, name in colors.items():
+        r_c, g_c, b_c = webcolors.hex_to_rgb(key)
+        rd = (r_c - r) ** 2
+        gd = (g_c - g) ** 2
+        bd = (b_c - b) ** 2
+        min_colours[(rd + gd + bd)] = name
+        hex_names[(rd + gd + bd)] = key
+    print('closest hex: {}'.format(hex_names[min(min_colours.keys())]))
+    print('closest color match: {}'.format(min_colours[min(min_colours.keys())]))
+
+print('Properties:')
+for color in props.dominant_colors.colors:
+    print('\nfraction: {}'.format(color.pixel_fraction))
+    print('score: {}'.format(color.score))
+    r = int(color.color.red)
+    g = int(color.color.green)
+    b = int(color.color.blue)
+    print('rgb: ({}, {}, {})'.format(r,g,b))
+    print('hex: {}'.format(RGB(r,g,b)))
+    closest_color(r, g, b)
