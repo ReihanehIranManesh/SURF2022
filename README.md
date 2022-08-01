@@ -1,4 +1,4 @@
-# SURF 2022
+# SURF 2022, Computer Science
 
 Code for color detection, label detection, and text detection for the Mead Art Museum images.
 
