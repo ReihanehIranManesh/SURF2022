@@ -9,5 +9,7 @@ Link to Google Knowledge Graph Search API for entity search:
 
 https://developers.google.com/knowledge-graph/reference/rest/v1
 
+All the dogs in Mead's databse:
+https://museums.fivecolleges.edu/info.php?v=2&museum=ac&s=&type=ext&t=objects&f=&d=&page=0&option7=dogs&op-earliest_year=%3E%3D&op-latest_year=%3C%3D
 
  
