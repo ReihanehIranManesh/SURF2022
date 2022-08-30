@@ -1,4 +1,4 @@
-The source code for mapping Google Vision API’s labels to MIMSY (Museum Integrated Management System) approved tags.
+**The source code for mapping Google Vision API’s labels to MIMSY (Museum Integrated Management System) approved tags.**
 
 To tag Mead Art Museum’s collection using Vision API, we had to build a common terminology between MIMSY and Vision API. MIMSY tags are pre-defined and fixed, approved by the Five Colleges and Historic Deerfield Museum Consortium, so we had to figure out a way to build a Python dictionary to map Google tags to MIMSY tags. Evidently, the terms used for tagging Mead’s collection differ from those Vision uses to classify and label images:
 
