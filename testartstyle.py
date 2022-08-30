@@ -4,7 +4,7 @@ import base64
 
 json_string = {
     "base64_Photo_String": "NO",
-    "photo_url": "https://museums.fivecolleges.edu/grabimg.php?kv=3309941"
+    "photo_url": "https://artincontext.org/wp-content/uploads/2021/04/Famous-Romanticism-Art.jpg"
 }
 json_string = json.dumps(json_string)
 data = json.loads(json_string)
