@@ -15,7 +15,7 @@ Other notes and considerations:
 
 1. Some Vision tags like “Asian food” are listed under two different Mead tags: “food” and “Asian”. For example, in this case, “food” is probably a more suitable tag than “Asian”. “Asian” may be the tag for “Asian” art or culture. If you wish to redefine the terms according to the unique nature of your museum’s database and used terms, feel free to choose the most appropriate and relevant tag and erase the other one. (Or keep both, if it is reasonable.)
 
-2. Some tags may be useful but have to be moved from one category to another. For example, “dog food” is listed under the “food” category, but it is more relevant to animal stuff. So, we can move this word to be listed under “animal” or “dogs” (or both) rather than “food”. Sometimes, some tags have to be erased from one category and added to another, because they were simply matched because of substring patterns, not their semantic meaning or the context they are used. 
+2. Some tags may be useful but have to be moved from one category to another. For example, “dog food” is listed under the “food” category, but it is more relevant to animal stuff. So, we can move this word to be listed under “animal” or “dogs” (or both) rather than “food”. Sometimes, some tags have to be erased from one category and added to another, because they were simply matched because of substring patterns, not their semantic similarity or the context they are used. 
 
 **Important files and what they contain:**
 
