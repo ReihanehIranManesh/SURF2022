@@ -19,24 +19,24 @@ Other notes and considerations:
 
 **Important files and what they contain:**
 
-*class-descriptions.csv
+*class-descriptions.csv*
 
 CSV file containing all (19,985) of the terms Google Vision API uses for image classification and object detection and localization. MID field in this file is a Freebase ID. For more information, read this: https://www.wikidata.org/wiki/Property:P646
 
 Note: this list was not officially published by Google LLC. They may use a different, updated, or more comprehensive list of tags than this file. For retrieving the exact definition and usage of the label terms that this API returns, users can do an entity search using Google Knowledge Graph Search API: https://developers.google.com/knowledge-graph/reference/rest/v1
 
-*intersection_dictionary_v2.pkl
+*intersection_dictionary_v2.pkl*
  
 The final dictionary stored in a PKL file. (A serialized object created with the pickle module in Python)
 
-*polished_diction.pkl
+*polished_diction.pkl*
 
 The final polished dictionary built from “joint-tags-final.csv” file.
 
-*joint-tags-final.csv
+*joint-tags-final.csv*
 
 CSV file containing the cleaned and polished data, matching Vision terms to MIMSY tags.
 
-*MIMSYApprovedTags.csv
+*MIMSYApprovedTags.csv*
 
 Full list of all 999 tags approved by MIMSY
