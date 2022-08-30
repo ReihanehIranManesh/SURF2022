@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e41c6cc-8bd0-4cf7-b34a-94d0f96ac836" name="Changes" comment="added FRCNN-v2.py" />
+    <list default="true" id="6e41c6cc-8bd0-4cf7-b34a-94d0f96ac836" name="Changes" comment="added FRCNN-v2.py">
+      <change afterPath="$PROJECT_DIR$/generalTagging/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
