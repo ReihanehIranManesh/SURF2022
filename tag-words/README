@@ -1,0 +1,13 @@
+Building common terminology between MIMSY and Vision
+The terms used for tagging Mead’s collection differ from those Vision uses to classify
+images. Many Vision terms are semantically the same and can be put under a general
+tag. For example, vision terms like bird, blackbird, bluebird, hummingbird, can all be mapped to MIMSY's bird tag.
+
+Vision and MIMSY also have many gender-specific tag terms (e.g., women and
+actresses). Since gender expressions differ among cultures and time periods, we
+removed all gender-specific Vision tags. The result was a Python dictionary of 1,237
+(out of 19,985 total) distinct Google tags mapped to 630 (out of 999 total) MIMSY
+tags.
+
+Mead tags use plural nouns and Google Vision API uses singular nouns so we also have to match certain patterns.
+After building the dictionary, words were polished by Dr. Miloslava Hruba.
