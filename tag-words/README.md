@@ -27,7 +27,7 @@ Note: this list was not officially published by Google LLC. They may use a diffe
 
 *intersection_dictionary_v2.pkl*
  
-Dictionary matching Vision terms to MIMSY tags, stored in a PKL file. (A serialized object created with the pickle module in Python)
+Uncleaned dictionary matching Vision terms to MIMSY tags, stored in a PKL file. (A serialized object created with the pickle module in Python)
 
 *polished_diction.pkl*
 
