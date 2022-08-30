@@ -27,7 +27,7 @@ Note: this list was not officially published by Google LLC. They may use a diffe
 
 *intersection_dictionary_v2.pkl*
  
-The final dictionary stored in a PKL file. (A serialized object created with the pickle module in Python)
+Dictionary matching Vision terms to MIMSY tags, stored in a PKL file. (A serialized object created with the pickle module in Python)
 
 *polished_diction.pkl*
 
@@ -39,4 +39,4 @@ CSV file containing the cleaned and polished data, matching Vision terms to MIMS
 
 *MIMSYApprovedTags.csv*
 
-Full list of all 999 tags approved by MIMSY
+Full list of all 999 tags approved by MIMSY.
