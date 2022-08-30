@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e41c6cc-8bd0-4cf7-b34a-94d0f96ac836" name="Changes" comment="added FRCNN-v2.py">
-      <change afterPath="$PROJECT_DIR$/tag-words/info" afterDir="false" />
-    </list>
+    <list default="true" id="6e41c6cc-8bd0-4cf7-b34a-94d0f96ac836" name="Changes" comment="added FRCNN-v2.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +24,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2B28vUV9Ct676mB5sbWrQVQ9mgG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
