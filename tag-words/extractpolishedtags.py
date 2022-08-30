@@ -5,6 +5,8 @@ POLISHED_DICTION = {}
 
 # 630 tags
 # 1297 google tags
+# 1237 UNIQUE google tags
+
 with open("joint-tags-final.csv", "r") as csv_file:
     df = pd.read_csv(csv_file)
     for index, row in df.iterrows():
