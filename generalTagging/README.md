@@ -8,3 +8,8 @@ Two distinct Vision API requests, label_detection, and object_localization, were
 *allgoogletags.py*
 
 A script that can find the distribution of all Vision-generated tags for any CSV source file of the database. Tags will be stored as keys in a Python dictionary, along with their frequencies as their values. This dictionary is then sorted ascendingly according to the frequencies of tags. 
+
+*mergegoogleandmeadtags.py*
+
+Source code for combining Mead’s already tagged objects with “ACURLS-all-google-mead-tags.csv", the output CSV file for the automatically tagged database by Google Vision. In the Mead database, 29% of 21,996 total images are already tagged, an initiative of the museum over the last three years largely engaging student interns. So, we wanted to have a file where we can combine both human-generated and computer-generated tags and be able to compare them easily. 
+
