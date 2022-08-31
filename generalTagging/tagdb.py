@@ -3,9 +3,10 @@ import pickle
 
 import pandas as pd
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/reihaneh/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
 
-# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/adamrogers/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
+# The path to the local JSON key file created by Google Cloud for your project
+# This file should be downloaded to your computer
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "xxxxxx.json"
 
 TAG_COL = "Tags"
 URI_COL = "URL"
@@ -76,12 +77,9 @@ def detect_labels_uri(uri, df, index):
 with open(FILE, "r+") as csv_file:
     df = pd.read_csv(csv_file)
     for index, row in df.iterrows():
-        if index <= 5:
-            uri = row[URI_COL]
-            detect_labels_uri(uri, df, index)
-            print(index)
+        uri = row[URI_COL]
+        detect_labels_uri(uri, df, index)
+        print(index)
 
     df.to_csv(FILE, index=False)
     print(f'Processed {index + 1} lines.')
-
-# keep a list of urls that got an error so that you can reprocess them

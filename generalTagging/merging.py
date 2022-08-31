@@ -1,8 +1,8 @@
 import pandas as pd
 
 TAG_COL = "Tags"
-RFILE = "/home/reihaneh/Music/remainder.csv"
-WFILE = "/home/reihaneh/Music/ACURLS-all-google-mead-tags.csv"
+RFILE = "files/remainder.csv"
+WFILE = "files/ACURLS-all-google-mead-tags.csv"
 
 with open(RFILE, "r") as read_file:
     rf = pd.read_csv(read_file)

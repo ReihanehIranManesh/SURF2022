@@ -3,10 +3,13 @@ import pickle
 
 import pandas as pd
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/reihaneh/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
+# The path to the local JSON key file created by Google Cloud for your project
+# This file should be downloaded to your computer
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "xxxxxx.json"
+
 ALL_TAGS = {}
 URI_COL = "URL"
-FILE = "ACURLS-simple.csv"
+FILE = "files/ACURLS-simple.csv"
 
 
 def sort_diction(diction):
@@ -56,3 +59,5 @@ with open('saved_dictionary.pkl', 'wb') as diction_file:
 with open('saved_dictionary.pkl', 'rb') as diction_file:
     loaded_dict = pickle.load(diction_file)
     print(loaded_dict)
+
+
