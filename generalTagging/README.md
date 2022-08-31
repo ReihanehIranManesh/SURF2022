@@ -18,3 +18,8 @@ Source code for combining Mead’s already tagged objects with “ACURLS-all-goo
 
 Tagging the whole database would have taken nearly nine hours, so we divided the
 images into two batches (13000, and 8996) and tagged each batch using a different computer. This is the source code for retrieving the results from the second batch stored in “remainder.csv” and combining it with the first batch, resulting in “ACURLS-all-google-mead-tags.csv" file, which contains the final CSV file with all the records of the database being tagged by Vision API. 
+
+
+Follow these instructions to set up a Google Cloud Vision API project:
+
+https://cloud.google.com/vision/docs/setup
