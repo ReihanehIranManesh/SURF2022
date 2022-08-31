@@ -13,3 +13,8 @@ A script that can find the distribution of all Vision-generated tags for any CSV
 
 Source code for combining Mead’s already tagged objects with “ACURLS-all-google-mead-tags.csv", the output CSV file for the automatically tagged database by Google Vision. In the Mead database, 29% of 21,996 total images are already tagged, an initiative of the museum over the last three years largely engaging student interns. So, we wanted to have a file where we can combine both human-generated and computer-generated tags and be able to compare them easily. 
 
+
+*merging.py*
+
+Tagging the whole database would have taken nearly nine hours, so we divided the
+images into two batches (13000, and 8996) and tagged each batch using a different computer. This is the source code for retrieving the results from the second batch stored in “remainder.csv” and combining it with the first batch, resulting in “ACURLS-all-google-mead-tags.csv" file, which contains the final CSV file with all the records of the database being tagged by Vision API. 
