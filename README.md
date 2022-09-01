@@ -8,7 +8,7 @@ Description of the project:
 
 The outcome of this collaborative experiment can greatly enhance the accessibility and searchability of the museum's database and encourage science and technology-minded students and faculty to explore the art collection in an interdisciplinary fashion.”
 
-**Please refer to the attached poster for a detailed explanation of the project, including methods, results, and findings.**
+**Please refer to the attached poster for a detailed explanation of the project, including methods, results, and findings:**
  [SURF_Poster_Final.pdf](https://github.com/ReihanehIranManesh/SURF2022/files/9470889/SURF_Poster_Final.pdf)
 
 *Resources*
