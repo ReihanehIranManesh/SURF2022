@@ -2,7 +2,7 @@ import pandas as pd
 
 TAG_COL = "Tags"
 URI_COL = "URL"
-FILE = "temp.csv"
+FILE = "mead.csv"
 TFILE = "final-google-mead-15p.csv"
 count = 0
 total = 0
