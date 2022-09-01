@@ -1,4 +1,4 @@
-# Summer Science Undergraduate Research Fellowships (SURF) 2022, Computer Science
+# Summer Science Undergraduate Research Fellowship (SURF) 2022, Computer Science
 
 Description of the project: 
 
