@@ -10,3 +10,6 @@ Two distinct Vision API requests, label_detection, and object_localization, were
 
 CSV file of Mead’s collection. URL field contains the URLs which the web images can be downloaded from. ID_NUMBER is a unique identifier assigned to each artwork or object in the museum. 
 
+*final-google-mead-15p.csv*
+
+Final CSV file of the whole collection automatically tagged by Google Vision API. 
