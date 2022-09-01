@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e41c6cc-8bd0-4cf7-b34a-94d0f96ac836" name="Changes" comment="added FRCNN-v2.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalTagging/ACURLS-simple-google-tags.csv" beforeDir="false" afterPath="$PROJECT_DIR$/generalTagging/ACURLS-simple-google-tags.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalTagging/allgoogletags.py" beforeDir="false" afterPath="$PROJECT_DIR$/generalTagging/allgoogletags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalTagging/merging.py" beforeDir="false" afterPath="$PROJECT_DIR$/generalTagging/merging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalTagging/prev csv/ACURLS-all-google-mead-tags.csv" beforeDir="false" afterPath="$PROJECT_DIR$/generalTagging/files/ACURLS-all-google-mead-tags.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalTagging/prev csv/ACURLS-simple-google-tags.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalTagging/prev csv/ACURLS-simple.csv" beforeDir="false" afterPath="$PROJECT_DIR$/generalTagging/files/ACURLS-simple.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalTagging/prev csv/remainder.csv" beforeDir="false" afterPath="$PROJECT_DIR$/generalTagging/files/remainder.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalTagging/tagdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/generalTagging/tagdb.py" afterDir="false" />
-    </list>
+    <list default="true" id="6e41c6cc-8bd0-4cf7-b34a-94d0f96ac836" name="Changes" comment="added FRCNN-v2.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

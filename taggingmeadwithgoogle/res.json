@@ -1,0 +1,5093 @@
+{
+  "cropHintsAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "y": 25
+            },
+            {
+              "x": 534,
+              "y": 25
+            },
+            {
+              "x": 534,
+              "y": 694
+            },
+            {
+              "y": 694
+            }
+          ]
+        },
+        "confidence": 0.28598133,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "y": 92
+            },
+            {
+              "x": 534,
+              "y": 92
+            },
+            {
+              "x": 534,
+              "y": 627
+            },
+            {
+              "y": 627
+            }
+          ]
+        },
+        "confidence": 0.35747662,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "y": 72
+            },
+            {
+              "x": 534,
+              "y": 72
+            },
+            {
+              "x": 534,
+              "y": 517
+            },
+            {
+              "y": 517
+            }
+          ]
+        },
+        "confidence": 0.42897198,
+        "importanceFraction": 1
+      }
+    ]
+  },
+  "fullTextAnnotation": {
+    "pages": [
+      {
+        "blocks": [
+          {
+            "blockType": "TEXT",
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 90,
+                  "y": 38
+                },
+                {
+                  "x": 438,
+                  "y": 34
+                },
+                {
+                  "x": 439,
+                  "y": 94
+                },
+                {
+                  "x": 91,
+                  "y": 98
+                }
+              ]
+            },
+            "confidence": 0.7181068,
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 90,
+                      "y": 52
+                    },
+                    {
+                      "x": 107,
+                      "y": 51
+                    },
+                    {
+                      "x": 108,
+                      "y": 65
+                    },
+                    {
+                      "x": 91,
+                      "y": 66
+                    }
+                  ]
+                },
+                "confidence": 0.5060956,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 90,
+                          "y": 52
+                        },
+                        {
+                          "x": 107,
+                          "y": 51
+                        },
+                        {
+                          "x": 108,
+                          "y": 65
+                        },
+                        {
+                          "x": 91,
+                          "y": 66
+                        }
+                      ]
+                    },
+                    "confidence": 0.5060956,
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 90,
+                              "y": 53
+                            },
+                            {
+                              "x": 100,
+                              "y": 52
+                            },
+                            {
+                              "x": 101,
+                              "y": 65
+                            },
+                            {
+                              "x": 91,
+                              "y": 66
+                            }
+                          ]
+                        },
+                        "confidence": 0.585688,
+                        "text": "र"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 103,
+                              "y": 51
+                            },
+                            {
+                              "x": 107,
+                              "y": 51
+                            },
+                            {
+                              "x": 108,
+                              "y": 64
+                            },
+                            {
+                              "x": 104,
+                              "y": 64
+                            }
+                          ]
+                        },
+                        "confidence": 0.42650315,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "text": "हे"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 106,
+                      "y": 55
+                    },
+                    {
+                      "x": 108,
+                      "y": 55
+                    },
+                    {
+                      "x": 108,
+                      "y": 76
+                    },
+                    {
+                      "x": 106,
+                      "y": 76
+                    }
+                  ]
+                },
+                "confidence": 0.37113953,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 106,
+                          "y": 55
+                        },
+                        {
+                          "x": 108,
+                          "y": 55
+                        },
+                        {
+                          "x": 108,
+                          "y": 76
+                        },
+                        {
+                          "x": 106,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.37113953,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 106,
+                              "y": 55
+                            },
+                            {
+                              "x": 108,
+                              "y": 55
+                            },
+                            {
+                              "x": 108,
+                              "y": 76
+                            },
+                            {
+                              "x": 106,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.37113953,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "text": "'"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 106,
+                      "y": 38
+                    },
+                    {
+                      "x": 438,
+                      "y": 37
+                    },
+                    {
+                      "x": 438,
+                      "y": 88
+                    },
+                    {
+                      "x": 106,
+                      "y": 89
+                    }
+                  ]
+                },
+                "confidence": 0.72897834,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 106,
+                          "y": 38
+                        },
+                        {
+                          "x": 108,
+                          "y": 38
+                        },
+                        {
+                          "x": 108,
+                          "y": 59
+                        },
+                        {
+                          "x": 106,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.2941516,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 106,
+                              "y": 38
+                            },
+                            {
+                              "x": 108,
+                              "y": 38
+                            },
+                            {
+                              "x": 108,
+                              "y": 59
+                            },
+                            {
+                              "x": 106,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.2941516,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "-"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 113,
+                          "y": 38
+                        },
+                        {
+                          "x": 138,
+                          "y": 38
+                        },
+                        {
+                          "x": 138,
+                          "y": 59
+                        },
+                        {
+                          "x": 113,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.77648914,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 113,
+                              "y": 38
+                            },
+                            {
+                              "x": 119,
+                              "y": 38
+                            },
+                            {
+                              "x": 119,
+                              "y": 59
+                            },
+                            {
+                              "x": 113,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.81771487,
+                        "text": "रा"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 121,
+                              "y": 38
+                            },
+                            {
+                              "x": 127,
+                              "y": 38
+                            },
+                            {
+                              "x": 127,
+                              "y": 59
+                            },
+                            {
+                              "x": 121,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.8226634,
+                        "text": "ग"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 129,
+                              "y": 38
+                            },
+                            {
+                              "x": 138,
+                              "y": 38
+                            },
+                            {
+                              "x": 138,
+                              "y": 59
+                            },
+                            {
+                              "x": 129,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.6890892,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "नी"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 141,
+                          "y": 38
+                        },
+                        {
+                          "x": 175,
+                          "y": 38
+                        },
+                        {
+                          "x": 175,
+                          "y": 59
+                        },
+                        {
+                          "x": 141,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.63115764,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 141,
+                              "y": 38
+                            },
+                            {
+                              "x": 149,
+                              "y": 38
+                            },
+                            {
+                              "x": 149,
+                              "y": 59
+                            },
+                            {
+                              "x": 141,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.62782854,
+                        "text": "वे"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 152,
+                              "y": 38
+                            },
+                            {
+                              "x": 161,
+                              "y": 38
+                            },
+                            {
+                              "x": 161,
+                              "y": 59
+                            },
+                            {
+                              "x": 152,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.7021873,
+                        "text": "गा"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 164,
+                              "y": 38
+                            },
+                            {
+                              "x": 175,
+                              "y": 38
+                            },
+                            {
+                              "x": 175,
+                              "y": 59
+                            },
+                            {
+                              "x": 164,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.563457,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "ली"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 177,
+                          "y": 38
+                        },
+                        {
+                          "x": 181,
+                          "y": 38
+                        },
+                        {
+                          "x": 181,
+                          "y": 59
+                        },
+                        {
+                          "x": 177,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.61507887,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 177,
+                              "y": 38
+                            },
+                            {
+                              "x": 181,
+                              "y": 38
+                            },
+                            {
+                              "x": 181,
+                              "y": 59
+                            },
+                            {
+                              "x": 177,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.61507887,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "॥"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 187,
+                          "y": 38
+                        },
+                        {
+                          "x": 209,
+                          "y": 38
+                        },
+                        {
+                          "x": 209,
+                          "y": 59
+                        },
+                        {
+                          "x": 187,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.8052523,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 187,
+                              "y": 38
+                            },
+                            {
+                              "x": 197,
+                              "y": 38
+                            },
+                            {
+                              "x": 197,
+                              "y": 59
+                            },
+                            {
+                              "x": 187,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.85664946,
+                        "text": "सु"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 198,
+                              "y": 38
+                            },
+                            {
+                              "x": 202,
+                              "y": 38
+                            },
+                            {
+                              "x": 202,
+                              "y": 59
+                            },
+                            {
+                              "x": 198,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.66665393,
+                        "text": "दू"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 205,
+                              "y": 38
+                            },
+                            {
+                              "x": 209,
+                              "y": 38
+                            },
+                            {
+                              "x": 209,
+                              "y": 59
+                            },
+                            {
+                              "x": 205,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.89245355,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "र"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 212,
+                          "y": 38
+                        },
+                        {
+                          "x": 235,
+                          "y": 38
+                        },
+                        {
+                          "x": 235,
+                          "y": 59
+                        },
+                        {
+                          "x": 212,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.7613361,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 212,
+                              "y": 38
+                            },
+                            {
+                              "x": 224,
+                              "y": 38
+                            },
+                            {
+                              "x": 224,
+                              "y": 59
+                            },
+                            {
+                              "x": 212,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.788583,
+                        "text": "ना"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 227,
+                              "y": 38
+                            },
+                            {
+                              "x": 235,
+                              "y": 38
+                            },
+                            {
+                              "x": 235,
+                              "y": 59
+                            },
+                            {
+                              "x": 227,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.73408914,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "री"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 239,
+                          "y": 38
+                        },
+                        {
+                          "x": 285,
+                          "y": 38
+                        },
+                        {
+                          "x": 285,
+                          "y": 59
+                        },
+                        {
+                          "x": 239,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.89905316,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 239,
+                              "y": 38
+                            },
+                            {
+                              "x": 249,
+                              "y": 38
+                            },
+                            {
+                              "x": 249,
+                              "y": 59
+                            },
+                            {
+                              "x": 239,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.8345066,
+                        "text": "ब्र"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 253,
+                              "y": 38
+                            },
+                            {
+                              "x": 262,
+                              "y": 38
+                            },
+                            {
+                              "x": 262,
+                              "y": 59
+                            },
+                            {
+                              "x": 253,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.91325593,
+                        "text": "ह्म"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 265,
+                              "y": 38
+                            },
+                            {
+                              "x": 276,
+                              "y": 38
+                            },
+                            {
+                              "x": 276,
+                              "y": 59
+                            },
+                            {
+                              "x": 265,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.92228824,
+                        "text": "चा"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 278,
+                              "y": 38
+                            },
+                            {
+                              "x": 285,
+                              "y": 38
+                            },
+                            {
+                              "x": 285,
+                              "y": 59
+                            },
+                            {
+                              "x": 278,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.92616194,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "री"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 286,
+                          "y": 38
+                        },
+                        {
+                          "x": 316,
+                          "y": 38
+                        },
+                        {
+                          "x": 316,
+                          "y": 59
+                        },
+                        {
+                          "x": 286,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.80240256,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 286,
+                              "y": 38
+                            },
+                            {
+                              "x": 296,
+                              "y": 38
+                            },
+                            {
+                              "x": 296,
+                              "y": 59
+                            },
+                            {
+                              "x": 286,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.8926354,
+                        "text": "सु"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 299,
+                              "y": 38
+                            },
+                            {
+                              "x": 304,
+                              "y": 38
+                            },
+                            {
+                              "x": 304,
+                              "y": 59
+                            },
+                            {
+                              "x": 299,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.90592825,
+                        "text": "से"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 308,
+                              "y": 38
+                            },
+                            {
+                              "x": 316,
+                              "y": 38
+                            },
+                            {
+                              "x": 316,
+                              "y": 59
+                            },
+                            {
+                              "x": 308,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.60864395,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "वा"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 318,
+                          "y": 38
+                        },
+                        {
+                          "x": 332,
+                          "y": 38
+                        },
+                        {
+                          "x": 332,
+                          "y": 59
+                        },
+                        {
+                          "x": 318,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.887554,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 318,
+                              "y": 38
+                            },
+                            {
+                              "x": 324,
+                              "y": 38
+                            },
+                            {
+                              "x": 324,
+                              "y": 59
+                            },
+                            {
+                              "x": 318,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.94517267,
+                        "text": "क"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 326,
+                              "y": 38
+                            },
+                            {
+                              "x": 332,
+                              "y": 38
+                            },
+                            {
+                              "x": 332,
+                              "y": 59
+                            },
+                            {
+                              "x": 326,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.8299353,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "रे"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 334,
+                          "y": 38
+                        },
+                        {
+                          "x": 375,
+                          "y": 38
+                        },
+                        {
+                          "x": 375,
+                          "y": 59
+                        },
+                        {
+                          "x": 334,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.8592782,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 334,
+                              "y": 38
+                            },
+                            {
+                              "x": 339,
+                              "y": 38
+                            },
+                            {
+                              "x": 339,
+                              "y": 59
+                            },
+                            {
+                              "x": 334,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.86815584,
+                        "text": "ह"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 340,
+                              "y": 38
+                            },
+                            {
+                              "x": 348,
+                              "y": 38
+                            },
+                            {
+                              "x": 348,
+                              "y": 59
+                            },
+                            {
+                              "x": 340,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.81763685,
+                        "text": "रि"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 351,
+                              "y": 38
+                            },
+                            {
+                              "x": 366,
+                              "y": 38
+                            },
+                            {
+                              "x": 366,
+                              "y": 59
+                            },
+                            {
+                              "x": 351,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.85711604,
+                        "text": "ध्या"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 368,
+                              "y": 38
+                            },
+                            {
+                              "x": 375,
+                              "y": 38
+                            },
+                            {
+                              "x": 375,
+                              "y": 59
+                            },
+                            {
+                              "x": 368,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.89420396,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "न"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 374,
+                          "y": 38
+                        },
+                        {
+                          "x": 401,
+                          "y": 38
+                        },
+                        {
+                          "x": 401,
+                          "y": 59
+                        },
+                        {
+                          "x": 374,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.8431665,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 374,
+                              "y": 38
+                            },
+                            {
+                              "x": 383,
+                              "y": 38
+                            },
+                            {
+                              "x": 383,
+                              "y": 59
+                            },
+                            {
+                              "x": 374,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.93823236,
+                        "text": "ल"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 384,
+                              "y": 38
+                            },
+                            {
+                              "x": 394,
+                              "y": 38
+                            },
+                            {
+                              "x": 394,
+                              "y": 59
+                            },
+                            {
+                              "x": 384,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.8308952,
+                        "text": "गा"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 398,
+                              "y": 38
+                            },
+                            {
+                              "x": 401,
+                              "y": 38
+                            },
+                            {
+                              "x": 401,
+                              "y": 59
+                            },
+                            {
+                              "x": 398,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.7603718,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "वे"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 404,
+                          "y": 38
+                        },
+                        {
+                          "x": 432,
+                          "y": 38
+                        },
+                        {
+                          "x": 432,
+                          "y": 59
+                        },
+                        {
+                          "x": 404,
+                          "y": 59
+                        }
+                      ]
+                    },
+                    "confidence": 0.916897,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "bho"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 404,
+                              "y": 38
+                            },
+                            {
+                              "x": 425,
+                              "y": 38
+                            },
+                            {
+                              "x": 425,
+                              "y": 59
+                            },
+                            {
+                              "x": 404,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.8744127,
+                        "text": "चि"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 428,
+                              "y": 38
+                            },
+                            {
+                              "x": 432,
+                              "y": 38
+                            },
+                            {
+                              "x": 432,
+                              "y": 59
+                            },
+                            {
+                              "x": 428,
+                              "y": 59
+                            }
+                          ]
+                        },
+                        "confidence": 0.9593813,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          }
+                        },
+                        "text": "त"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 113,
+                          "y": 55
+                        },
+                        {
+                          "x": 143,
+                          "y": 55
+                        },
+                        {
+                          "x": 143,
+                          "y": 76
+                        },
+                        {
+                          "x": 113,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.9113351,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 113,
+                              "y": 55
+                            },
+                            {
+                              "x": 122,
+                              "y": 55
+                            },
+                            {
+                              "x": 122,
+                              "y": 76
+                            },
+                            {
+                              "x": 113,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.90960145,
+                        "text": "हु"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 125,
+                              "y": 55
+                            },
+                            {
+                              "x": 135,
+                              "y": 55
+                            },
+                            {
+                              "x": 135,
+                              "y": 76
+                            },
+                            {
+                              "x": 125,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.90153676,
+                        "text": "ला"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 139,
+                              "y": 55
+                            },
+                            {
+                              "x": 143,
+                              "y": 55
+                            },
+                            {
+                              "x": 143,
+                              "y": 76
+                            },
+                            {
+                              "x": 139,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.9228671,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "स"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 146,
+                          "y": 55
+                        },
+                        {
+                          "x": 182,
+                          "y": 55
+                        },
+                        {
+                          "x": 182,
+                          "y": 76
+                        },
+                        {
+                          "x": 146,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.9000898,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 146,
+                              "y": 55
+                            },
+                            {
+                              "x": 158,
+                              "y": 55
+                            },
+                            {
+                              "x": 158,
+                              "y": 76
+                            },
+                            {
+                              "x": 146,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.84720606,
+                        "text": "बि"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 162,
+                              "y": 55
+                            },
+                            {
+                              "x": 173,
+                              "y": 55
+                            },
+                            {
+                              "x": 173,
+                              "y": 76
+                            },
+                            {
+                              "x": 162,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.90903664,
+                        "text": "ला"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 175,
+                              "y": 55
+                            },
+                            {
+                              "x": 182,
+                              "y": 55
+                            },
+                            {
+                              "x": 182,
+                              "y": 76
+                            },
+                            {
+                              "x": 175,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.94402677,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "स"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 181,
+                          "y": 55
+                        },
+                        {
+                          "x": 201,
+                          "y": 55
+                        },
+                        {
+                          "x": 201,
+                          "y": 76
+                        },
+                        {
+                          "x": 181,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.7333301,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 55
+                            },
+                            {
+                              "x": 194,
+                              "y": 55
+                            },
+                            {
+                              "x": 194,
+                              "y": 76
+                            },
+                            {
+                              "x": 181,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.86024547,
+                        "text": "लि"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 196,
+                              "y": 55
+                            },
+                            {
+                              "x": 201,
+                              "y": 55
+                            },
+                            {
+                              "x": 201,
+                              "y": 76
+                            },
+                            {
+                              "x": 196,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.6064147,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "ये"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 205,
+                          "y": 55
+                        },
+                        {
+                          "x": 240,
+                          "y": 55
+                        },
+                        {
+                          "x": 240,
+                          "y": 76
+                        },
+                        {
+                          "x": 205,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.6008351,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 205,
+                              "y": 55
+                            },
+                            {
+                              "x": 214,
+                              "y": 55
+                            },
+                            {
+                              "x": 214,
+                              "y": 76
+                            },
+                            {
+                              "x": 205,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.8048778,
+                        "text": "पि"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 215,
+                              "y": 55
+                            },
+                            {
+                              "x": 222,
+                              "y": 55
+                            },
+                            {
+                              "x": 222,
+                              "y": 76
+                            },
+                            {
+                              "x": 215,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.66934437,
+                        "text": "य"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 226,
+                              "y": 55
+                            },
+                            {
+                              "x": 240,
+                              "y": 55
+                            },
+                            {
+                              "x": 240,
+                              "y": 76
+                            },
+                            {
+                              "x": 226,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.32828307,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "मा"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 241,
+                          "y": 55
+                        },
+                        {
+                          "x": 292,
+                          "y": 55
+                        },
+                        {
+                          "x": 292,
+                          "y": 76
+                        },
+                        {
+                          "x": 241,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.6331399,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 241,
+                              "y": 55
+                            },
+                            {
+                              "x": 248,
+                              "y": 55
+                            },
+                            {
+                              "x": 248,
+                              "y": 76
+                            },
+                            {
+                              "x": 241,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.731463,
+                        "text": "स"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 251,
+                              "y": 55
+                            },
+                            {
+                              "x": 256,
+                              "y": 55
+                            },
+                            {
+                              "x": 256,
+                              "y": 76
+                            },
+                            {
+                              "x": 251,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.61146677,
+                        "text": "घ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 253,
+                              "y": 55
+                            },
+                            {
+                              "x": 261,
+                              "y": 55
+                            },
+                            {
+                              "x": 261,
+                              "y": 76
+                            },
+                            {
+                              "x": 253,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.5103473,
+                        "text": "रे"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 269,
+                              "y": 55
+                            },
+                            {
+                              "x": 279,
+                              "y": 55
+                            },
+                            {
+                              "x": 279,
+                              "y": 76
+                            },
+                            {
+                              "x": 269,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.7168519,
+                        "text": "न"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 280,
+                              "y": 55
+                            },
+                            {
+                              "x": 292,
+                              "y": 55
+                            },
+                            {
+                              "x": 292,
+                              "y": 76
+                            },
+                            {
+                              "x": 280,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.5955706,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "बा"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 293,
+                          "y": 55
+                        },
+                        {
+                          "x": 322,
+                          "y": 55
+                        },
+                        {
+                          "x": 322,
+                          "y": 76
+                        },
+                        {
+                          "x": 293,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.69265556,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 293,
+                              "y": 55
+                            },
+                            {
+                              "x": 300,
+                              "y": 55
+                            },
+                            {
+                              "x": 300,
+                              "y": 76
+                            },
+                            {
+                              "x": 293,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.72776645,
+                        "text": "स"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 302,
+                              "y": 55
+                            },
+                            {
+                              "x": 309,
+                              "y": 55
+                            },
+                            {
+                              "x": 309,
+                              "y": 76
+                            },
+                            {
+                              "x": 302,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.6841619,
+                        "text": "सु"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 311,
+                              "y": 55
+                            },
+                            {
+                              "x": 322,
+                              "y": 55
+                            },
+                            {
+                              "x": 322,
+                              "y": 76
+                            },
+                            {
+                              "x": 311,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.6660383,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "वा"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 337,
+                          "y": 55
+                        },
+                        {
+                          "x": 384,
+                          "y": 55
+                        },
+                        {
+                          "x": 384,
+                          "y": 76
+                        },
+                        {
+                          "x": 337,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.5282807,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 337,
+                              "y": 55
+                            },
+                            {
+                              "x": 348,
+                              "y": 55
+                            },
+                            {
+                              "x": 348,
+                              "y": 76
+                            },
+                            {
+                              "x": 337,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.6230269,
+                        "text": "पा"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 348,
+                              "y": 55
+                            },
+                            {
+                              "x": 358,
+                              "y": 55
+                            },
+                            {
+                              "x": 358,
+                              "y": 76
+                            },
+                            {
+                              "x": 348,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.64004266,
+                        "text": "स"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 364,
+                              "y": 55
+                            },
+                            {
+                              "x": 384,
+                              "y": 55
+                            },
+                            {
+                              "x": 384,
+                              "y": 76
+                            },
+                            {
+                              "x": 364,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.3217724,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "पी"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 384,
+                          "y": 55
+                        },
+                        {
+                          "x": 396,
+                          "y": 55
+                        },
+                        {
+                          "x": 396,
+                          "y": 76
+                        },
+                        {
+                          "x": 384,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.63174593,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 384,
+                              "y": 55
+                            },
+                            {
+                              "x": 389,
+                              "y": 55
+                            },
+                            {
+                              "x": 389,
+                              "y": 76
+                            },
+                            {
+                              "x": 384,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.7704292,
+                        "text": "म"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 391,
+                              "y": 55
+                            },
+                            {
+                              "x": 396,
+                              "y": 55
+                            },
+                            {
+                              "x": 396,
+                              "y": 76
+                            },
+                            {
+                              "x": 391,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.49306265,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "द्"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 402,
+                          "y": 55
+                        },
+                        {
+                          "x": 438,
+                          "y": 55
+                        },
+                        {
+                          "x": 438,
+                          "y": 76
+                        },
+                        {
+                          "x": 402,
+                          "y": 76
+                        }
+                      ]
+                    },
+                    "confidence": 0.5388771,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 402,
+                              "y": 55
+                            },
+                            {
+                              "x": 411,
+                              "y": 55
+                            },
+                            {
+                              "x": 411,
+                              "y": 76
+                            },
+                            {
+                              "x": 402,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.2559476,
+                        "text": "पौ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 413,
+                              "y": 55
+                            },
+                            {
+                              "x": 418,
+                              "y": 55
+                            },
+                            {
+                              "x": 418,
+                              "y": 76
+                            },
+                            {
+                              "x": 413,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.51988953,
+                        "text": "न"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 420,
+                              "y": 55
+                            },
+                            {
+                              "x": 427,
+                              "y": 55
+                            },
+                            {
+                              "x": 427,
+                              "y": 76
+                            },
+                            {
+                              "x": 420,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.57964665,
+                        "text": "दु"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 430,
+                              "y": 55
+                            },
+                            {
+                              "x": 438,
+                              "y": 55
+                            },
+                            {
+                              "x": 438,
+                              "y": 76
+                            },
+                            {
+                              "x": 430,
+                              "y": 76
+                            }
+                          ]
+                        },
+                        "confidence": 0.8000246,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          }
+                        },
+                        "text": "रा"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 111,
+                          "y": 71
+                        },
+                        {
+                          "x": 127,
+                          "y": 71
+                        },
+                        {
+                          "x": 127,
+                          "y": 89
+                        },
+                        {
+                          "x": 111,
+                          "y": 89
+                        }
+                      ]
+                    },
+                    "confidence": 0.5710577,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 111,
+                              "y": 72
+                            },
+                            {
+                              "x": 120,
+                              "y": 72
+                            },
+                            {
+                              "x": 120,
+                              "y": 89
+                            },
+                            {
+                              "x": 111,
+                              "y": 89
+                            }
+                          ]
+                        },
+                        "confidence": 0.507304,
+                        "text": "व"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 122,
+                              "y": 71
+                            },
+                            {
+                              "x": 127,
+                              "y": 71
+                            },
+                            {
+                              "x": 127,
+                              "y": 88
+                            },
+                            {
+                              "x": 122,
+                              "y": 88
+                            }
+                          ]
+                        },
+                        "confidence": 0.6348113,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "न"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 133,
+                          "y": 71
+                        },
+                        {
+                          "x": 150,
+                          "y": 71
+                        },
+                        {
+                          "x": 150,
+                          "y": 88
+                        },
+                        {
+                          "x": 133,
+                          "y": 88
+                        }
+                      ]
+                    },
+                    "confidence": 0.7211473,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 133,
+                              "y": 71
+                            },
+                            {
+                              "x": 142,
+                              "y": 71
+                            },
+                            {
+                              "x": 142,
+                              "y": 88
+                            },
+                            {
+                              "x": 133,
+                              "y": 88
+                            }
+                          ]
+                        },
+                        "confidence": 0.6803799,
+                        "text": "ता"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 144,
+                              "y": 71
+                            },
+                            {
+                              "x": 150,
+                              "y": 71
+                            },
+                            {
+                              "x": 150,
+                              "y": 88
+                            },
+                            {
+                              "x": 144,
+                              "y": 88
+                            }
+                          ]
+                        },
+                        "confidence": 0.76191473,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "स"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 152,
+                          "y": 71
+                        },
+                        {
+                          "x": 156,
+                          "y": 71
+                        },
+                        {
+                          "x": 156,
+                          "y": 88
+                        },
+                        {
+                          "x": 152,
+                          "y": 88
+                        }
+                      ]
+                    },
+                    "confidence": 0.8161425,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 152,
+                              "y": 71
+                            },
+                            {
+                              "x": 156,
+                              "y": 71
+                            },
+                            {
+                              "x": 156,
+                              "y": 88
+                            },
+                            {
+                              "x": 152,
+                              "y": 88
+                            }
+                          ]
+                        },
+                        "confidence": 0.8161425,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "के"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 159,
+                          "y": 71
+                        },
+                        {
+                          "x": 183,
+                          "y": 71
+                        },
+                        {
+                          "x": 183,
+                          "y": 88
+                        },
+                        {
+                          "x": 159,
+                          "y": 88
+                        }
+                      ]
+                    },
+                    "confidence": 0.8992251,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 159,
+                              "y": 71
+                            },
+                            {
+                              "x": 174,
+                              "y": 71
+                            },
+                            {
+                              "x": 174,
+                              "y": 88
+                            },
+                            {
+                              "x": 159,
+                              "y": 88
+                            }
+                          ]
+                        },
+                        "confidence": 0.8515949,
+                        "text": "चि"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 176,
+                              "y": 71
+                            },
+                            {
+                              "x": 183,
+                              "y": 71
+                            },
+                            {
+                              "x": 183,
+                              "y": 88
+                            },
+                            {
+                              "x": 176,
+                              "y": 88
+                            }
+                          ]
+                        },
+                        "confidence": 0.9468553,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "त्र"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 184,
+                          "y": 71
+                        },
+                        {
+                          "x": 193,
+                          "y": 71
+                        },
+                        {
+                          "x": 193,
+                          "y": 88
+                        },
+                        {
+                          "x": 184,
+                          "y": 88
+                        }
+                      ]
+                    },
+                    "confidence": 0.7327476,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 184,
+                              "y": 71
+                            },
+                            {
+                              "x": 193,
+                              "y": 71
+                            },
+                            {
+                              "x": 193,
+                              "y": 88
+                            },
+                            {
+                              "x": 184,
+                              "y": 88
+                            }
+                          ]
+                        },
+                        "confidence": 0.7327476,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "को"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 206,
+                          "y": 70
+                        },
+                        {
+                          "x": 240,
+                          "y": 70
+                        },
+                        {
+                          "x": 240,
+                          "y": 88
+                        },
+                        {
+                          "x": 206,
+                          "y": 88
+                        }
+                      ]
+                    },
+                    "confidence": 0.59473634,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 206,
+                              "y": 71
+                            },
+                            {
+                              "x": 215,
+                              "y": 71
+                            },
+                            {
+                              "x": 215,
+                              "y": 88
+                            },
+                            {
+                              "x": 206,
+                              "y": 88
+                            }
+                          ]
+                        },
+                        "confidence": 0.7072578,
+                        "text": "व"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 218,
+                              "y": 70
+                            },
+                            {
+                              "x": 222,
+                              "y": 70
+                            },
+                            {
+                              "x": 222,
+                              "y": 87
+                            },
+                            {
+                              "x": 218,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.65621585,
+                        "text": "न"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 224,
+                              "y": 70
+                            },
+                            {
+                              "x": 232,
+                              "y": 70
+                            },
+                            {
+                              "x": 232,
+                              "y": 87
+                            },
+                            {
+                              "x": 224,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.39961395,
+                        "text": "पा"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 235,
+                              "y": 70
+                            },
+                            {
+                              "x": 240,
+                              "y": 70
+                            },
+                            {
+                              "x": 240,
+                              "y": 87
+                            },
+                            {
+                              "x": 235,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.61585784,
+                        "text": "वे"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 243,
+                          "y": 70
+                        },
+                        {
+                          "x": 245,
+                          "y": 70
+                        },
+                        {
+                          "x": 245,
+                          "y": 87
+                        },
+                        {
+                          "x": 243,
+                          "y": 87
+                        }
+                      ]
+                    },
+                    "confidence": 0.57630056,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 243,
+                              "y": 70
+                            },
+                            {
+                              "x": 245,
+                              "y": 70
+                            },
+                            {
+                              "x": 245,
+                              "y": 87
+                            },
+                            {
+                              "x": 243,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.57630056,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "॥"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 254,
+                          "y": 70
+                        },
+                        {
+                          "x": 258,
+                          "y": 70
+                        },
+                        {
+                          "x": 258,
+                          "y": 87
+                        },
+                        {
+                          "x": 254,
+                          "y": 87
+                        }
+                      ]
+                    },
+                    "confidence": 0.5952195,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 254,
+                              "y": 70
+                            },
+                            {
+                              "x": 258,
+                              "y": 70
+                            },
+                            {
+                              "x": 258,
+                              "y": 87
+                            },
+                            {
+                              "x": 254,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.5952195,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "या"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 264,
+                          "y": 70
+                        },
+                        {
+                          "x": 309,
+                          "y": 70
+                        },
+                        {
+                          "x": 309,
+                          "y": 87
+                        },
+                        {
+                          "x": 264,
+                          "y": 87
+                        }
+                      ]
+                    },
+                    "confidence": 0.5825478,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 264,
+                              "y": 70
+                            },
+                            {
+                              "x": 271,
+                              "y": 70
+                            },
+                            {
+                              "x": 271,
+                              "y": 87
+                            },
+                            {
+                              "x": 264,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.7947572,
+                        "text": "वि"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 271,
+                              "y": 70
+                            },
+                            {
+                              "x": 283,
+                              "y": 70
+                            },
+                            {
+                              "x": 283,
+                              "y": 87
+                            },
+                            {
+                              "x": 271,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.64427364,
+                        "text": "धि"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 286,
+                              "y": 70
+                            },
+                            {
+                              "x": 309,
+                              "y": 70
+                            },
+                            {
+                              "x": 309,
+                              "y": 87
+                            },
+                            {
+                              "x": 286,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.30861259,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "सी"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 318,
+                          "y": 70
+                        },
+                        {
+                          "x": 334,
+                          "y": 70
+                        },
+                        {
+                          "x": 334,
+                          "y": 87
+                        },
+                        {
+                          "x": 318,
+                          "y": 87
+                        }
+                      ]
+                    },
+                    "confidence": 0.77239573,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 318,
+                              "y": 70
+                            },
+                            {
+                              "x": 334,
+                              "y": 70
+                            },
+                            {
+                              "x": 334,
+                              "y": 87
+                            },
+                            {
+                              "x": 318,
+                              "y": 87
+                            }
+                          ]
+                        },
+                        "confidence": 0.77239573,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "की"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 338,
+                          "y": 69
+                        },
+                        {
+                          "x": 362,
+                          "y": 69
+                        },
+                        {
+                          "x": 362,
+                          "y": 86
+                        },
+                        {
+                          "x": 338,
+                          "y": 86
+                        }
+                      ]
+                    },
+                    "confidence": 0.7745366,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 338,
+                              "y": 69
+                            },
+                            {
+                              "x": 347,
+                              "y": 69
+                            },
+                            {
+                              "x": 347,
+                              "y": 86
+                            },
+                            {
+                              "x": 338,
+                              "y": 86
+                            }
+                          ]
+                        },
+                        "confidence": 0.89204323,
+                        "text": "रा"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 348,
+                              "y": 69
+                            },
+                            {
+                              "x": 352,
+                              "y": 69
+                            },
+                            {
+                              "x": 352,
+                              "y": 86
+                            },
+                            {
+                              "x": 348,
+                              "y": 86
+                            }
+                          ]
+                        },
+                        "confidence": 0.737498,
+                        "text": "ग"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 355,
+                              "y": 69
+                            },
+                            {
+                              "x": 362,
+                              "y": 69
+                            },
+                            {
+                              "x": 362,
+                              "y": 86
+                            },
+                            {
+                              "x": 355,
+                              "y": 86
+                            }
+                          ]
+                        },
+                        "confidence": 0.6940687,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "नी"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 383,
+                          "y": 69
+                        },
+                        {
+                          "x": 411,
+                          "y": 69
+                        },
+                        {
+                          "x": 411,
+                          "y": 86
+                        },
+                        {
+                          "x": 383,
+                          "y": 86
+                        }
+                      ]
+                    },
+                    "confidence": 0.77363694,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 383,
+                              "y": 69
+                            },
+                            {
+                              "x": 389,
+                              "y": 69
+                            },
+                            {
+                              "x": 389,
+                              "y": 86
+                            },
+                            {
+                              "x": 383,
+                              "y": 86
+                            }
+                          ]
+                        },
+                        "confidence": 0.7715511,
+                        "text": "गा"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 391,
+                              "y": 69
+                            },
+                            {
+                              "x": 411,
+                              "y": 69
+                            },
+                            {
+                              "x": 411,
+                              "y": 86
+                            },
+                            {
+                              "x": 391,
+                              "y": 86
+                            }
+                          ]
+                        },
+                        "confidence": 0.7757228,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "SPACE"
+                          }
+                        },
+                        "text": "ली"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 413,
+                          "y": 68
+                        },
+                        {
+                          "x": 432,
+                          "y": 68
+                        },
+                        {
+                          "x": 432,
+                          "y": 86
+                        },
+                        {
+                          "x": 413,
+                          "y": 86
+                        }
+                      ]
+                    },
+                    "confidence": 0.8802784,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "confidence": 1,
+                          "languageCode": "hi"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 413,
+                              "y": 69
+                            },
+                            {
+                              "x": 425,
+                              "y": 69
+                            },
+                            {
+                              "x": 425,
+                              "y": 86
+                            },
+                            {
+                              "x": 413,
+                              "y": 86
+                            }
+                          ]
+                        },
+                        "confidence": 0.8119869,
+                        "text": "ना"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 428,
+                              "y": 68
+                            },
+                            {
+                              "x": 432,
+                              "y": 68
+                            },
+                            {
+                              "x": 432,
+                              "y": 85
+                            },
+                            {
+                              "x": 428,
+                              "y": 85
+                            }
+                          ]
+                        },
+                        "confidence": 0.9485699,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "text": "म"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 237,
+                      "y": 85
+                    },
+                    {
+                      "x": 267,
+                      "y": 86
+                    },
+                    {
+                      "x": 267,
+                      "y": 96
+                    },
+                    {
+                      "x": 237,
+                      "y": 95
+                    }
+                  ]
+                },
+                "confidence": 0.6469971,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 237,
+                          "y": 85
+                        },
+                        {
+                          "x": 267,
+                          "y": 86
+                        },
+                        {
+                          "x": 267,
+                          "y": 96
+                        },
+                        {
+                          "x": 237,
+                          "y": 95
+                        }
+                      ]
+                    },
+                    "confidence": 0.6469971,
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 237,
+                              "y": 85
+                            },
+                            {
+                              "x": 247,
+                              "y": 85
+                            },
+                            {
+                              "x": 247,
+                              "y": 95
+                            },
+                            {
+                              "x": 237,
+                              "y": 95
+                            }
+                          ]
+                        },
+                        "confidence": 0.8431035,
+                        "text": "क"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 249,
+                              "y": 85
+                            },
+                            {
+                              "x": 267,
+                              "y": 85
+                            },
+                            {
+                              "x": 267,
+                              "y": 95
+                            },
+                            {
+                              "x": 249,
+                              "y": 95
+                            }
+                          ]
+                        },
+                        "confidence": 0.4508907,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "text": "वि"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "confidence": 0.7181068,
+        "height": 720,
+        "property": {
+          "detectedLanguages": [
+            {
+              "confidence": 0.57823366,
+              "languageCode": "hi"
+            },
+            {
+              "confidence": 0.38568228,
+              "languageCode": "bho"
+            }
+          ]
+        },
+        "width": 535
+      }
+    ],
+    "text": "रहे\n'\n- रागनी वेगाली ॥ सुदूर नारी ब्रह्मचारी सुसेवा करे हरिध्यान लगावे चित\nहुलास बिलास लिये पियमा सघरेनबा ससुवा पासपी मद् पौनदुरा\nवन तास के चित्र को वनपावे॥ या विधिसी की रागनी गाली नाम\nकवि"
+  },
+  "imagePropertiesAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "y": 25
+            },
+            {
+              "x": 534,
+              "y": 25
+            },
+            {
+              "x": 534,
+              "y": 694
+            },
+            {
+              "y": 694
+            }
+          ]
+        },
+        "confidence": 0.28598133,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "y": 92
+            },
+            {
+              "x": 534,
+              "y": 92
+            },
+            {
+              "x": 534,
+              "y": 627
+            },
+            {
+              "y": 627
+            }
+          ]
+        },
+        "confidence": 0.35747662,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "y": 72
+            },
+            {
+              "x": 534,
+              "y": 72
+            },
+            {
+              "x": 534,
+              "y": 517
+            },
+            {
+              "y": 517
+            }
+          ]
+        },
+        "confidence": 0.42897198,
+        "importanceFraction": 1
+      }
+    ],
+    "dominantColors": {
+      "colors": [
+        {
+          "color": {
+            "blue": 31,
+            "green": 125,
+            "red": 118
+          },
+          "hex": "767D1F",
+          "percent": 30.314358081050297,
+          "percentRounded": 30,
+          "pixelFraction": 0.029532967,
+          "rgb": "118, 125,\n 31",
+          "score": 0.15990289
+        },
+        {
+          "color": {
+            "blue": 124,
+            "green": 82,
+            "red": 33
+          },
+          "hex": "21527C",
+          "percent": 19.508788107513784,
+          "percentRounded": 20,
+          "pixelFraction": 0.037156593,
+          "rgb": "33, 82,\n 124",
+          "score": 0.102905415
+        },
+        {
+          "color": {
+            "blue": 20,
+            "green": 90,
+            "red": 78
+          },
+          "hex": "4E5A14",
+          "percent": 13.084621562506321,
+          "percentRounded": 13,
+          "pixelFraction": 0.019299451,
+          "rgb": "78, 90,\n 20",
+          "score": 0.06901907
+        },
+        {
+          "color": {
+            "blue": 52,
+            "green": 78,
+            "red": 93
+          },
+          "hex": "5D4E34",
+          "percent": 5.49776077031178,
+          "percentRounded": 5,
+          "pixelFraction": 0.08200549,
+          "rgb": "93, 78,\n 52",
+          "score": 0.028999718
+        },
+        {
+          "color": {
+            "blue": 33,
+            "green": 59,
+            "red": 44
+          },
+          "hex": "2C3B21",
+          "percent": 5.450547627066759,
+          "percentRounded": 5,
+          "pixelFraction": 0.00934066,
+          "rgb": "44, 59,\n 33",
+          "score": 0.028750677
+        },
+        {
+          "color": {
+            "blue": 90,
+            "green": 143,
+            "red": 207
+          },
+          "hex": "CF8F5A",
+          "percent": 4.573671471205703,
+          "percentRounded": 5,
+          "pixelFraction": 0.021016484,
+          "rgb": "207, 143,\n 90",
+          "score": 0.02412531
+        },
+        {
+          "color": {
+            "blue": 104,
+            "green": 111,
+            "red": 117
+          },
+          "hex": "756F68",
+          "percent": 1.9313777793014262,
+          "percentRounded": 2,
+          "pixelFraction": 0.059203297,
+          "rgb": "117, 111,\n 104",
+          "score": 0.010187677
+        },
+        {
+          "color": {
+            "blue": 147,
+            "green": 186,
+            "red": 214
+          },
+          "hex": "D6BA93",
+          "percent": 1.2958799344316192,
+          "percentRounded": 1,
+          "pixelFraction": 0.15089285,
+          "rgb": "214, 186,\n 147",
+          "score": 0.006835538
+        },
+        {
+          "color": {
+            "blue": 113,
+            "green": 82,
+            "red": 40
+          },
+          "hex": "285271",
+          "percent": 18.186589378035258,
+          "percentRounded": 18,
+          "pixelFraction": 0.04313187,
+          "rgb": "40, 82,\n 113",
+          "score": 0.09593105
+        },
+        {
+          "color": {
+            "green": 62,
+            "red": 177
+          },
+          "percent": 0.15640528857705283,
+          "percentRounded": 0,
+          "pixelFraction": 0.00006868132,
+          "score": 0.0008250103
+        }
+      ]
+    }
+  },
+  "labelAnnotations": [
+    {
+      "description": "Plant",
+      "mid": "/m/05s2s",
+      "score": 0.93552464,
+      "topicality": 0.93552464
+    },
+    {
+      "description": "Picture frame",
+      "mid": "/m/06z37_",
+      "score": 0.92446125,
+      "topicality": 0.92446125
+    },
+    {
+      "description": "Ecoregion",
+      "mid": "/m/0cblv",
+      "score": 0.9216063,
+      "topicality": 0.9216063
+    },
+    {
+      "description": "Rectangle",
+      "mid": "/m/0j62f",
+      "score": 0.91225004,
+      "topicality": 0.91225004
+    },
+    {
+      "description": "Textile",
+      "mid": "/m/0dnr7",
+      "score": 0.8771226,
+      "topicality": 0.8771226
+    },
+    {
+      "description": "Botany",
+      "mid": "/m/01bwr",
+      "score": 0.87273115,
+      "topicality": 0.87273115
+    },
+    {
+      "description": "Art",
+      "mid": "/m/0jjw",
+      "score": 0.8712064,
+      "topicality": 0.8712064
+    },
+    {
+      "description": "Organism",
+      "mid": "/m/05nnm",
+      "score": 0.8621467,
+      "topicality": 0.8621467
+    },
+    {
+      "description": "Painting",
+      "mid": "/m/05qdh",
+      "score": 0.8393761,
+      "topicality": 0.8393761
+    },
+    {
+      "description": "Font",
+      "mid": "/m/03gq5hm",
+      "score": 0.82609385,
+      "topicality": 0.82609385
+    },
+    {
+      "description": "Creative arts",
+      "mid": "/m/0dw9f6",
+      "score": 0.81040645,
+      "topicality": 0.81040645
+    },
+    {
+      "description": "Tree",
+      "mid": "/m/07j7r",
+      "score": 0.7915704,
+      "topicality": 0.7915704
+    },
+    {
+      "description": "Wood",
+      "mid": "/m/083vt",
+      "score": 0.776893,
+      "topicality": 0.776893
+    },
+    {
+      "description": "Grass",
+      "mid": "/m/08t9c_",
+      "score": 0.77287734,
+      "topicality": 0.77287734
+    },
+    {
+      "description": "Pattern",
+      "mid": "/m/0hwky",
+      "score": 0.7550105,
+      "topicality": 0.7550105
+    },
+    {
+      "description": "Landscape",
+      "mid": "/m/025s3q0",
+      "score": 0.75025123,
+      "topicality": 0.75025123
+    },
+    {
+      "description": "Paint",
+      "mid": "/m/05y4t",
+      "score": 0.7472491,
+      "topicality": 0.7472491
+    },
+    {
+      "description": "Illustration",
+      "mid": "/m/01kr8f",
+      "score": 0.7380263,
+      "topicality": 0.7380263
+    },
+    {
+      "description": "Poster",
+      "mid": "/m/01n5jq",
+      "score": 0.7284304,
+      "topicality": 0.7284304
+    },
+    {
+      "description": "Visual arts",
+      "mid": "/m/0p9xx",
+      "score": 0.7091015,
+      "topicality": 0.7091015
+    },
+    {
+      "description": "Drawing",
+      "mid": "/m/02csf",
+      "score": 0.6864253,
+      "topicality": 0.6864253
+    },
+    {
+      "description": "Paper",
+      "mid": "/m/0641k",
+      "score": 0.6762662,
+      "topicality": 0.6762662
+    },
+    {
+      "description": "Paper product",
+      "mid": "/m/0h8p59j",
+      "score": 0.64716583,
+      "topicality": 0.64716583
+    },
+    {
+      "description": "Magenta",
+      "mid": "/m/0ckc5",
+      "score": 0.64531475,
+      "topicality": 0.64531475
+    },
+    {
+      "description": "Grassland",
+      "mid": "/m/01c7cq",
+      "score": 0.62185156,
+      "topicality": 0.62185156
+    },
+    {
+      "description": "History",
+      "mid": "/m/03g3w",
+      "score": 0.601658,
+      "topicality": 0.601658
+    },
+    {
+      "description": "Still life",
+      "mid": "/m/01spzs",
+      "score": 0.584674,
+      "topicality": 0.584674
+    },
+    {
+      "description": "Peach",
+      "mid": "/m/03r18y",
+      "score": 0.5775294,
+      "topicality": 0.5775294
+    },
+    {
+      "description": "Room",
+      "mid": "/m/06ht1",
+      "score": 0.56739146,
+      "topicality": 0.56739146
+    },
+    {
+      "description": "Circle",
+      "mid": "/m/01vkl",
+      "score": 0.5455764,
+      "topicality": 0.5455764
+    },
+    {
+      "description": "Modern art",
+      "mid": "/m/015r61",
+      "score": 0.54270124,
+      "topicality": 0.54270124
+    }
+  ],
+  "localizedObjectAnnotations": [
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.050373044,
+            "y": 0.04258752
+          },
+          {
+            "x": 0.9479651,
+            "y": 0.04258752
+          },
+          {
+            "x": 0.9479651,
+            "y": 0.9522636
+          },
+          {
+            "x": 0.050373044,
+            "y": 0.9522636
+          }
+        ]
+      },
+      "mid": "/m/06z37_",
+      "name": "Picture frame",
+      "score": 0.7778184
+    },
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.39617395,
+            "y": 0.44695535
+          },
+          {
+            "x": 0.5361689,
+            "y": 0.44695535
+          },
+          {
+            "x": 0.5361689,
+            "y": 0.5773344
+          },
+          {
+            "x": 0.39617395,
+            "y": 0.5773344
+          }
+        ]
+      },
+      "mid": "/m/01g317",
+      "name": "Person",
+      "score": 0.7300908
+    },
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.26855043,
+            "y": 0.38819182
+          },
+          {
+            "x": 0.39294812,
+            "y": 0.38819182
+          },
+          {
+            "x": 0.39294812,
+            "y": 0.56304014
+          },
+          {
+            "x": 0.26855043,
+            "y": 0.56304014
+          }
+        ]
+      },
+      "mid": "/m/01g317",
+      "name": "Person",
+      "score": 0.564733
+    }
+  ],
+  "safeSearchAnnotation": {
+    "adult": "VERY_UNLIKELY",
+    "medical": "VERY_UNLIKELY",
+    "racy": "POSSIBLE",
+    "spoof": "VERY_UNLIKELY",
+    "violence": "VERY_UNLIKELY"
+  },
+  "textAnnotations": [
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 90,
+            "y": 34
+          },
+          {
+            "x": 439,
+            "y": 34
+          },
+          {
+            "x": 439,
+            "y": 98
+          },
+          {
+            "x": 90,
+            "y": 98
+          }
+        ]
+      },
+      "description": "रहे\n'\n- रागनी वेगाली ॥ सुदूर नारी ब्रह्मचारी सुसेवा करे हरिध्यान लगावे चित\nहुलास बिलास लिये पियमा सघरेनबा ससुवा पासपी मद् पौनदुरा\nवन तास के चित्र को वनपावे॥ या विधिसी की रागनी गाली नाम\nकवि",
+      "locale": "hi"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 90,
+            "y": 52
+          },
+          {
+            "x": 107,
+            "y": 51
+          },
+          {
+            "x": 108,
+            "y": 65
+          },
+          {
+            "x": 91,
+            "y": 66
+          }
+        ]
+      },
+      "description": "रहे"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 106,
+            "y": 55
+          },
+          {
+            "x": 108,
+            "y": 55
+          },
+          {
+            "x": 108,
+            "y": 76
+          },
+          {
+            "x": 106,
+            "y": 76
+          }
+        ]
+      },
+      "description": "'"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 106,
+            "y": 38
+          },
+          {
+            "x": 108,
+            "y": 38
+          },
+          {
+            "x": 108,
+            "y": 59
+          },
+          {
+            "x": 106,
+            "y": 59
+          }
+        ]
+      },
+      "description": "-"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 113,
+            "y": 38
+          },
+          {
+            "x": 138,
+            "y": 38
+          },
+          {
+            "x": 138,
+            "y": 59
+          },
+          {
+            "x": 113,
+            "y": 59
+          }
+        ]
+      },
+      "description": "रागनी"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 141,
+            "y": 38
+          },
+          {
+            "x": 175,
+            "y": 38
+          },
+          {
+            "x": 175,
+            "y": 59
+          },
+          {
+            "x": 141,
+            "y": 59
+          }
+        ]
+      },
+      "description": "वेगाली"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 177,
+            "y": 38
+          },
+          {
+            "x": 181,
+            "y": 38
+          },
+          {
+            "x": 181,
+            "y": 59
+          },
+          {
+            "x": 177,
+            "y": 59
+          }
+        ]
+      },
+      "description": "॥"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 187,
+            "y": 38
+          },
+          {
+            "x": 209,
+            "y": 38
+          },
+          {
+            "x": 209,
+            "y": 59
+          },
+          {
+            "x": 187,
+            "y": 59
+          }
+        ]
+      },
+      "description": "सुदूर"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 212,
+            "y": 38
+          },
+          {
+            "x": 235,
+            "y": 38
+          },
+          {
+            "x": 235,
+            "y": 59
+          },
+          {
+            "x": 212,
+            "y": 59
+          }
+        ]
+      },
+      "description": "नारी"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 239,
+            "y": 38
+          },
+          {
+            "x": 285,
+            "y": 38
+          },
+          {
+            "x": 285,
+            "y": 59
+          },
+          {
+            "x": 239,
+            "y": 59
+          }
+        ]
+      },
+      "description": "ब्रह्मचारी"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 286,
+            "y": 38
+          },
+          {
+            "x": 316,
+            "y": 38
+          },
+          {
+            "x": 316,
+            "y": 59
+          },
+          {
+            "x": 286,
+            "y": 59
+          }
+        ]
+      },
+      "description": "सुसेवा"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 318,
+            "y": 38
+          },
+          {
+            "x": 332,
+            "y": 38
+          },
+          {
+            "x": 332,
+            "y": 59
+          },
+          {
+            "x": 318,
+            "y": 59
+          }
+        ]
+      },
+      "description": "करे"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 334,
+            "y": 38
+          },
+          {
+            "x": 375,
+            "y": 38
+          },
+          {
+            "x": 375,
+            "y": 59
+          },
+          {
+            "x": 334,
+            "y": 59
+          }
+        ]
+      },
+      "description": "हरिध्यान"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 374,
+            "y": 38
+          },
+          {
+            "x": 401,
+            "y": 38
+          },
+          {
+            "x": 401,
+            "y": 59
+          },
+          {
+            "x": 374,
+            "y": 59
+          }
+        ]
+      },
+      "description": "लगावे"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 404,
+            "y": 38
+          },
+          {
+            "x": 432,
+            "y": 38
+          },
+          {
+            "x": 432,
+            "y": 59
+          },
+          {
+            "x": 404,
+            "y": 59
+          }
+        ]
+      },
+      "description": "चित"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 113,
+            "y": 55
+          },
+          {
+            "x": 143,
+            "y": 55
+          },
+          {
+            "x": 143,
+            "y": 76
+          },
+          {
+            "x": 113,
+            "y": 76
+          }
+        ]
+      },
+      "description": "हुलास"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 146,
+            "y": 55
+          },
+          {
+            "x": 182,
+            "y": 55
+          },
+          {
+            "x": 182,
+            "y": 76
+          },
+          {
+            "x": 146,
+            "y": 76
+          }
+        ]
+      },
+      "description": "बिलास"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 181,
+            "y": 55
+          },
+          {
+            "x": 201,
+            "y": 55
+          },
+          {
+            "x": 201,
+            "y": 76
+          },
+          {
+            "x": 181,
+            "y": 76
+          }
+        ]
+      },
+      "description": "लिये"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 205,
+            "y": 55
+          },
+          {
+            "x": 240,
+            "y": 55
+          },
+          {
+            "x": 240,
+            "y": 76
+          },
+          {
+            "x": 205,
+            "y": 76
+          }
+        ]
+      },
+      "description": "पियमा"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 241,
+            "y": 55
+          },
+          {
+            "x": 292,
+            "y": 55
+          },
+          {
+            "x": 292,
+            "y": 76
+          },
+          {
+            "x": 241,
+            "y": 76
+          }
+        ]
+      },
+      "description": "सघरेनबा"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 293,
+            "y": 55
+          },
+          {
+            "x": 322,
+            "y": 55
+          },
+          {
+            "x": 322,
+            "y": 76
+          },
+          {
+            "x": 293,
+            "y": 76
+          }
+        ]
+      },
+      "description": "ससुवा"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 337,
+            "y": 55
+          },
+          {
+            "x": 384,
+            "y": 55
+          },
+          {
+            "x": 384,
+            "y": 76
+          },
+          {
+            "x": 337,
+            "y": 76
+          }
+        ]
+      },
+      "description": "पासपी"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 384,
+            "y": 55
+          },
+          {
+            "x": 396,
+            "y": 55
+          },
+          {
+            "x": 396,
+            "y": 76
+          },
+          {
+            "x": 384,
+            "y": 76
+          }
+        ]
+      },
+      "description": "मद्"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 402,
+            "y": 55
+          },
+          {
+            "x": 438,
+            "y": 55
+          },
+          {
+            "x": 438,
+            "y": 76
+          },
+          {
+            "x": 402,
+            "y": 76
+          }
+        ]
+      },
+      "description": "पौनदुरा"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 111,
+            "y": 71
+          },
+          {
+            "x": 127,
+            "y": 71
+          },
+          {
+            "x": 127,
+            "y": 89
+          },
+          {
+            "x": 111,
+            "y": 89
+          }
+        ]
+      },
+      "description": "वन"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 133,
+            "y": 71
+          },
+          {
+            "x": 150,
+            "y": 71
+          },
+          {
+            "x": 150,
+            "y": 88
+          },
+          {
+            "x": 133,
+            "y": 88
+          }
+        ]
+      },
+      "description": "तास"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 152,
+            "y": 71
+          },
+          {
+            "x": 156,
+            "y": 71
+          },
+          {
+            "x": 156,
+            "y": 88
+          },
+          {
+            "x": 152,
+            "y": 88
+          }
+        ]
+      },
+      "description": "के"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 159,
+            "y": 71
+          },
+          {
+            "x": 183,
+            "y": 71
+          },
+          {
+            "x": 183,
+            "y": 88
+          },
+          {
+            "x": 159,
+            "y": 88
+          }
+        ]
+      },
+      "description": "चित्र"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 184,
+            "y": 71
+          },
+          {
+            "x": 193,
+            "y": 71
+          },
+          {
+            "x": 193,
+            "y": 88
+          },
+          {
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      "description": "को"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 206,
+            "y": 70
+          },
+          {
+            "x": 240,
+            "y": 70
+          },
+          {
+            "x": 240,
+            "y": 88
+          },
+          {
+            "x": 206,
+            "y": 88
+          }
+        ]
+      },
+      "description": "वनपावे"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 243,
+            "y": 70
+          },
+          {
+            "x": 245,
+            "y": 70
+          },
+          {
+            "x": 245,
+            "y": 87
+          },
+          {
+            "x": 243,
+            "y": 87
+          }
+        ]
+      },
+      "description": "॥"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 254,
+            "y": 70
+          },
+          {
+            "x": 258,
+            "y": 70
+          },
+          {
+            "x": 258,
+            "y": 87
+          },
+          {
+            "x": 254,
+            "y": 87
+          }
+        ]
+      },
+      "description": "या"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 264,
+            "y": 70
+          },
+          {
+            "x": 309,
+            "y": 70
+          },
+          {
+            "x": 309,
+            "y": 87
+          },
+          {
+            "x": 264,
+            "y": 87
+          }
+        ]
+      },
+      "description": "विधिसी"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 318,
+            "y": 70
+          },
+          {
+            "x": 334,
+            "y": 70
+          },
+          {
+            "x": 334,
+            "y": 87
+          },
+          {
+            "x": 318,
+            "y": 87
+          }
+        ]
+      },
+      "description": "की"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 338,
+            "y": 69
+          },
+          {
+            "x": 362,
+            "y": 69
+          },
+          {
+            "x": 362,
+            "y": 86
+          },
+          {
+            "x": 338,
+            "y": 86
+          }
+        ]
+      },
+      "description": "रागनी"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 383,
+            "y": 69
+          },
+          {
+            "x": 411,
+            "y": 69
+          },
+          {
+            "x": 411,
+            "y": 86
+          },
+          {
+            "x": 383,
+            "y": 86
+          }
+        ]
+      },
+      "description": "गाली"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 413,
+            "y": 68
+          },
+          {
+            "x": 432,
+            "y": 68
+          },
+          {
+            "x": 432,
+            "y": 86
+          },
+          {
+            "x": 413,
+            "y": 86
+          }
+        ]
+      },
+      "description": "नाम"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 237,
+            "y": 85
+          },
+          {
+            "x": 267,
+            "y": 86
+          },
+          {
+            "x": 267,
+            "y": 96
+          },
+          {
+            "x": 237,
+            "y": 95
+          }
+        ]
+      },
+      "description": "कवि"
+    }
+  ]
+}
