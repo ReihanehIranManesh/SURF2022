@@ -2,7 +2,11 @@
 
 Description of the project: 
 
-“Building a database of images and keywords for the Mead Collection (collaboration with Miloslava Hruba). This project required an interdisciplinary approach from Computer Science and The Mead Art museum. The initial inquiries were: 1. Explore the use and functionality of Google Vision API on pre-defined Mead Art Museum collection image metadata. 2. Create a program that would filter Google Vision results to match controlled language keywords and themes embedded in Mead’s existing database. The outcome of this collaborative experiment can greatly enhance the accessibility and searchability of the museum's database and encourage science and technology-minded students and faculty to explore the art collection in an interdisciplinary fashion.”
+“Building a database of images and keywords for the Mead Collection (collaboration with Miloslava Hruba). This project required an interdisciplinary approach from Computer Science Department and the Mead Art museum. The initial inquiries were: 
+1. Explore the use and functionality of Google Vision API on pre-defined Mead Art Museum collection image metadata. 
+2. Create a program that would filter Google Vision results to match controlled language keywords and themes embedded in Mead’s existing database.
+
+The outcome of this collaborative experiment can greatly enhance the accessibility and searchability of the museum's database and encourage science and technology-minded students and faculty to explore the art collection in an interdisciplinary fashion.”
 
 *Resources*
 
