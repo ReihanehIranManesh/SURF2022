@@ -13,3 +13,11 @@ CSV file of Mead’s collection. URL field contains the URLs which the web image
 *final-google-mead-15p.csv*
 
 Final CSV file of the whole collection automatically tagged by Google Vision API with adaptive filtering. 
+
+*inference15p.py*
+
+Script for calculating the most frequent Vision-generated tags, after they were matched to a MIMSY tag. This script produced the "table.csv" file that contains the tag terms and their frequencies, sorted descendingly with the most generated tags at the top of the file. 
+
+*inferencemead.py*
+
+Script for calculating the most frequent already existing tags manually done by humans. This script produced the "table3.csv" file that contains the tag terms and their frequencies, sorted descendingly with the most used tags at the top of the file. The source file used for calculation is "mead.csv". This CSV file was derived from a dumped version of the database where the “Tags” field is all the tags that were manually assigned to each image by humans. NULL means that no tagging has been done by humans for that record (web image). 
