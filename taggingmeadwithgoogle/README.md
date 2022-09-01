@@ -6,4 +6,7 @@ Two distinct Vision API requests, label_detection, and object_localization, were
 
 **Important files and what they contain:**
 
+*ACURLS-simple.csv*
+
+CSV file of Mead’s collection. URL field contains the URLs which the web images can be downloaded from. ID_NUMBER is a unique identifier assigned to each artwork or object in the museum. 
 
