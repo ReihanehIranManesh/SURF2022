@@ -26,3 +26,7 @@ Script for calculating the most frequent already existing tags manually done by 
 
 Script for merging all the six CSV files, resulting in the final CSV named “1.csv” which includes the whole collection automatically tagged by Google Vision with adaptive filtering. This CSV file was later renamed “final-google-mead-15p.csv”. 
 
+*multi.py*
+
+Script for multiprocessing six python scripts concurrently. The scripts were “tagdb1.py” through “tagdb6.py”, each tagging 4,000 images, except the last script, which tagged 1,996 images.
+
