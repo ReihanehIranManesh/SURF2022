@@ -30,3 +30,6 @@ Script for merging all the six CSV files, resulting in the final CSV named “1.
 
 Script for multiprocessing six python scripts concurrently. The scripts were “tagdb1.py” through “tagdb6.py”, each tagging 4,000 images, except the last script, which tagged 1,996 images.
 
+*tagremainder.py*
+
+Script for tagging the images that were not tagged at all after the whole database was tagged in the multiprocessing stage. This was a reassuring process to check that ALL images that could be tagged by Vision were actually tagged. During the multiprocessing stage, some API requests were unsuccessful and incomplete due to unstable internet connection, connection loss, or error return by Google Vision API. By running this program, we also found that 100 images in the database have corrupted URLs with no file content. These are mostly museum objects with an online webpage but no available image in the database. 
