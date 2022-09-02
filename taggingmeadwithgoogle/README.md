@@ -21,3 +21,8 @@ Script for calculating the most frequent Vision-generated tags, after they were 
 *inferencemead.py*
 
 Script for calculating the most frequent already existing tags manually done by humans. This script produced the "table3.csv" file that contains the tag terms and their frequencies, sorted descendingly with the most used tags at the top of the file. The source file used for calculation is "mead.csv". This CSV file was derived from a dumped version of the database where the “Tags” field is all the tags that were manually assigned to each image by humans. NULL means that no tagging has been done by humans for that record (web image). 
+
+*merging.py*
+
+Script for merging all the six CSV files, resulting in the final CSV named “1.csv” which includes the whole collection automatically tagged by Google Vision with adaptive filtering. This CSV file was later renamed “final-google-mead-15p.csv”. 
+
