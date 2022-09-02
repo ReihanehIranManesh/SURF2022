@@ -4,10 +4,9 @@ import pickle
 import pandas as pd
 import time
 
-os.environ[
-    "GOOGLE_APPLICATION_CREDENTIALS"] = "/home/reihaneh/PycharmProjects/SURF2022/spring-market-354613-75fa6f1b5111.json"
-
-# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/adamrogers/PycharmProjects/SURF2022/testdomcolor-5cbfa6dc7bc4.json"
+# The path to the local JSON key file created by Google Cloud for your project
+# This file should be downloaded to your computer
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "xxxxxx.json"
 
 TAG_COL = "Tags"
 URI_COL = "URL"
