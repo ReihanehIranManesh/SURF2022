@@ -9,6 +9,7 @@ with open(RFILE, "r") as read_file:
     with open(WFILE, "r+") as write_file:
         wf = pd.read_csv(write_file)
         for index, row in rf.iterrows():
+            # the condition should change according to the RFILE you are choosing to merge
             if index >= 20000:
                 try:
                     tags = rf[TAG_COL][index]
