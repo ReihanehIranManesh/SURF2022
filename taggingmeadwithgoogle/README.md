@@ -33,3 +33,8 @@ Script for multiprocessing six python scripts concurrently. The scripts were “
 *tagremainder.py*
 
 Script for tagging the images that were not tagged at all after the whole database was tagged in the multiprocessing stage. This was a reassuring process to check that ALL images that could be tagged by Vision were actually tagged. During the multiprocessing stage, some API requests were unsuccessful and incomplete due to unstable internet connection, connection loss, or error return by Google Vision API. By running this program, we also found that 100 images in the database have corrupted URLs with no file content. These are mostly museum objects with an online webpage but no available image in the database. 
+
+*testingaccuracy.py*
+
+Script for conducting a comparative analysis between manually tagged records and automatically tagged records by Vision. It counts the number of images that were manually AND automatically tagged with an identical tag term, for example, “flowers”. This way, we can find the intersection of manually assigned tags and automatically Vision-generated tags. 
+
